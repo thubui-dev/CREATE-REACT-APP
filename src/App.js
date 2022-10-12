@@ -1,7 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React, { useState } from "react";
+import Radio from "./components/Radio/Radio";
 
 function App() {
+  const [gender, setGender] = useState([
+    { value: "male", label: "male" },
+    { value: "female", label: "female" },
+  ]);
+  const [selectedRadio, setRadio] = useState("");
+
+  const handleOnChange = (selected) => {
+    setRadio(selected);
+  };
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +29,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Radio onChange={handleOnChange} options={gender} value={selectedRadio} />
     </div>
   );
 }
