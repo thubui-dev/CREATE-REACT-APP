@@ -6,8 +6,7 @@ import Collapse from "../../Collapse/Collapse";
 import TaskList from "../../Todo/TaskList/TaskList";
 
 function About() {
-  // eslint-disable-next-line no-unused-vars
-  const [open, setOpen] = useState(false);
+  const [open] = useState(false);
   return (
     <div className="about-page">
       <div className="section-head">
