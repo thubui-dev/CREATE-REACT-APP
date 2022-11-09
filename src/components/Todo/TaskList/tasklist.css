@@ -1,0 +1,24 @@
+.todo-container {
+    background: #a97afd;
+    width: 40vw;
+    margin: 1em auto;
+    border-radius: 15px;
+    padding: 20px 10px;
+    color: white;
+    border: 3px solid transparent;
+}
+
+.todo-container button {
+    background: rgb(214, 195, 249);
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 10px 5px;
+    width: 55px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.todo-item li {
+    list-style: none;
+}

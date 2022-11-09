@@ -1,0 +1,22 @@
+.open_toggle {
+    background-color: #a97afd;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    margin-top: 50px;
+}
+
+.arrow {
+    padding: 2px;
+    font-size: 20px;
+    margin-left: 10px;
+}

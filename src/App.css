@@ -1,5 +1,11 @@
 .App {
-  text-align: center;
+  display: flex;
+}
+
+.App:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .App-logo {
@@ -36,3 +42,5 @@
     transform: rotate(360deg);
   }
 }
+
+

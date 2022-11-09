@@ -1,0 +1,54 @@
+.home-page {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(239, 228, 249);
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    padding: 70px;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.btnContactMe {
+    width: 190px;
+    background-color: #a97afd;
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 60px;
+    font-size: 20px;
+    color: #4f055c;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.btnContactMe:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 18px;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.btnContactMe:hover{
+    padding-right: 24px;
+    padding-left:8px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out;
+    background: linear-gradient(135deg,#a97afd,rgba(155, 121, 216, 0.63),#a97afd,#d6c3f9,#b798f0);
+}
+  
+ .btnContactMe:hover:after {
+    opacity: 1;
+    right: 10px;
+}
+
+.icon-envelope {
+    padding-right: 5px;
+}

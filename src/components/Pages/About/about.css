@@ -1,0 +1,99 @@
+.about-page {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(239, 228, 249);
+    font-size: 20px;
+    font-weight: 400;
+    padding: 70px;
+}
+
+.section-head {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.section-head h4 {
+    position: relative;
+    padding: 0 0 0 15px;
+    line-height: 1;
+    border-left: 1px solid #eee;
+    letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.section-head h4:before {
+    content: '';
+    width: 1px;
+    height: 40px;
+    position: absolute;
+    left: -1px;
+    bottom: 0;
+    background: #a97afd;
+}
+
+.section-head h4 span {
+    font-weight: 300;
+    padding-bottom: 15px;
+    display: block;
+}
+
+.sidebar-textbox {
+    display: flex;
+}
+    
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.contact-icon {
+    font-size: 28px;
+    width: 60px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 100%;
+    background:rgba(155, 121, 216, 0.63);
+    margin-right: 10px;
+}
+
+.contact-text {
+    color:  #999;
+}
+
+.contact-text h3 {
+    color: black;
+}
+
+.btn-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .about-page {
+        padding-bottom: 0;
+    }
+
+    .sidebar-textbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .contact-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+
